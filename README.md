@@ -28,6 +28,15 @@ python evaluation/run_evaluation.py        # puntúa todo lo que hay en evaluati
 python evaluation/validate_submission.py submissions/<equipo>.csv
 ```
 
+## Nuestra solución
+
+```bash
+pip install -r requirements-solution.txt
+python -m solution.run                     # regenera submissions/barcelona2027.csv (~10 s)
+```
+
+Enfoque y decisiones en [docs/TECNICO.md](docs/TECNICO.md).
+
 ## Datos
 
 Los datos los dan los organizadores y **no se pueden redistribuir**, así que `data/` está en `.gitignore`. Descomprime el bundle así:
